@@ -1,0 +1,68 @@
+body{
+    font-family:sans-serif ;
+}
+#header{
+    width: 100%;
+    background-color: #EEEEEE;
+    padding: 5px;
+    height: 30px;
+}
+#logo{
+    float: left;
+    font-weight: bold;
+    padding: 3px 5px;
+    font-size: 120%;
+}
+
+#buttonContainer {
+    width: 238px;
+    margin: 0 auto;
+
+}
+.toggleButton{
+    float: left;
+    border:1px solid grey;
+    padding: 4px;
+    border-right: none;
+}
+#html{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#output{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-right: 1px solid grey;
+}
+
+.active{
+    background-color: #E8F2FF;
+
+}
+
+#outputPanel{
+    float: right;
+    border: none;
+    
+}
+
+.highlightButton{
+    background-color: grey;
+}
+
+textarea{
+    width: 50%;
+    resize: none;
+    border-top: none;
+    border-color: grey;
+}
+
+
+.panel{
+    float: left;
+    width: 50%;
+    border-left: none;
+}
+.hidden{
+    display: none;
+}
